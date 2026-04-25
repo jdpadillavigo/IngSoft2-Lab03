@@ -1,0 +1,11 @@
+package ejercicio_01.solucion;
+
+public abstract class Game {
+    protected String name;
+
+    public abstract void start();
+
+    public String getInfo() {
+        return "Juego: " + name;
+    }
+}
